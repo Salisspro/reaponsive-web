@@ -1,23 +1,31 @@
 
 import React from 'react'
+import IMG from '../assets/img/486058303_677802528236544_7156047215018533440_n.jpg'
+import IMG2 from '../assets/img/485626934_677802484903215_1427447628130676582_n.jpg'
+import IMG3 from '../assets/img/485892806_677802474903216_2052160140797191276_n.jpg'
+
 
 export default function Cart() {
   return (
-    <div className='mt-10 lg:p-20'>
+    <div className=''>
 
-      <div className='flex mx-5 items-center justify-between space-x-2'>
-        <div className='w-46 md:w-66 h-46 md:h-66 rounded border-teal-500 border '>
-          <h1 className='text-slate-700 text-3xl font-bold'>1</h1>
+      <div className='flex flex-col mx-5 items-center justify-between gap-5 mt-10'>
+        <div className=''>
+
+          <img className='w-86 h-56 rounded ' src={IMG} alt="" />
+
+
         </div>
 
-        <div className='w-46 md:w-66 md:h-66 h-46 rounded border-teal-500 border '>
-          <h1 className='text-slate-700 text-3xl font-bold'>2</h1>
+        <div className=''>
+          <img className='w-86 h-56 rounded' src={IMG2} alt="" />
         </div>
 
-        <div className='w-46 h-46 md:w-66 md:h-66 rounded border-teal-500 border '> 
-          <h1 className='text-slate-700 text-3xl font-bold'>3</h1>
+        <div className=''>
+          <img className='w-86 h-56 rounded' src={IMG3} alt="" />
         </div>
-
+        <div>
+        </div>
       </div>
     </div>
   )
